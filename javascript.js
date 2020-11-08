@@ -4,30 +4,31 @@
 */
 
 function multiplyFun() {
-  var div1 = document.getElementById('div1').value;
-  var div2 = document.getElementById('div2').value;
+  var div1 = document.getElementById("div1").value;
+  var div2 = document.getElementById("div2").value;
   var res = div1 * div2;
-  document.getElementById('divr').innerHTML = res;
+  document.getElementById("divr").innerHTML = res;
 }
 
 function div() {
-  var div1 = document.getElementById('div1').value;
-  var div2 = document.getElementById('div2').value;
+  var div1 = document.getElementById("div1").value;
+  var div2 = document.getElementById("div2").value;
   var res = div1 / div2;
-  document.getElementById('divr').innerHTML = res;
+  document.getElementById("divr").innerHTML = res;
 }
 
 function add() {
-  var div1 = document.getElementById('div1').value;
-  var div2 = document.getElementById('div2').value;
+  var div1 = document.getElementById("div1").value;
+  var div2 = document.getElementById("div2").value;
   var res = +div1 + +div2;
-  document.getElementById('divr').innerHTML = res;
+  document.getElementById("divr").innerHTML = res;
 }
+
 function min() {
-  var div1 = document.getElementById('div1').value;
-  var div2 = document.getElementById('div2').value;
+  var div1 = document.getElementById("div1").value;
+  var div2 = document.getElementById("div2").value;
   var res = div1 - div2;
-  document.getElementById('divr').innerHTML = res;
+  document.getElementById("divr").innerHTML = res;
 }
 /*
 function myname(name) {
@@ -78,24 +79,23 @@ var b3 = 0;
 
 function div(num1, num2) {
   var num3 = num1 / num2;
-  console.log('num1, num2:' + num3);
+  console.log("num1, num2:" + num3);
 }
 
 function mul(num1, num2) {
   var num3 = num1 * num2;
-  console.log('num1, num2:' + num3);
+  console.log("num1, num2:" + num3);
 }
 
 function add(num1, num2) {
   var num3 = num1 + num2;
-  console.log('num1, num2:' + num3);
+  console.log("num1, num2:" + num3);
 }
 
 function sub(num1, num2) {
   var num3 = num1 - num2;
-  console.log('num1, num2:' + num3);
+  console.log("num1, num2:" + num3);
 }
-
 
 function compare(num1, num2) {
   return num1 === num2;
